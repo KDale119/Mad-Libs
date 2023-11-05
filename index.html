@@ -9,16 +9,21 @@
   </head>
   <body>
     <main>
-      <p>
-        The <span id="adjective" onclick="adj()">adjecvtive</span> cat is
-        feeling <span id="emotion" onclick="emotion()">emotion</span>.
-      </p>
-      <p>
-        He really wants to go to
-        <span id="place" onclick="place()">place</span> because
-        <span id="thing" onclick="thing()">thing</span> is driving him crazy.
-      </p>
-      <button class="btn">Reveal me</button>
+      <div>
+        <p id="p">
+          The
+          <span id="adjective" onclick="adj()" class="fillin">adjecvtive</span>
+          cat is feeling
+          <span id="emotion" onclick="emotion()" class="fillin">emotion</span>.
+        </p>
+        <p id="pa">
+          He really wants to go to
+          <span id="place" onclick="place()" class="fillin">place</span> because
+          <span id="thing" onclick="thing()" class="fillin">thing</span> is
+          driving him crazy.
+        </p>
+      </div>
+      <button class="btn" onclick="revealMe()">Reveal me</button>
     </main>
   </body>
 </html>

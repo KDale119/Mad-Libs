@@ -19,3 +19,7 @@ function thing() {
      document.getElementById("thing").innerHTML = thing;
 }
 
+function revealMe() {
+    document.getElementById('p').style.visibility = "visible";
+    document.getElementById('pa').style.visibility = "visible";
+    }

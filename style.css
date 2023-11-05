@@ -1,0 +1,10 @@
+* {
+    font-family: sans-serif;
+}
+#p, #pa {
+    visibility: hidden;
+}
+.fillin {
+    visibility: visible;
+    font-weight: bold;
+}
